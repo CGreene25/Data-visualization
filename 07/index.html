@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Car report</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body class="content">
+    <svg width="960" height="900">
+        <g class="scale">
+            <g>
+                <circle cx="50" cy="50" r="40"></circle>
+                <rect x="100" y="25" height="50" width="50"></rect>
+            </g>
+            <g stroke="black" stroke-width="3">
+                <circle cx="50" cy="150" r="40" fill="red" ></circle>
+                <rect x="100" y="125" height="50" width="50" fill="#83cc2a"></rect>
+            </g>
+
+            <g transform="translate(0,200)">
+                <circle cx="50" cy="50" r="40"></circle>
+                <rect x="100" y="25" height="50" width="50"></rect>
+            </g>
+        </g>
+        <g id="line-path">
+            <line x1="200" y1="20" x2="300" y2="280"></line>
+            <path d="M300 280 L350 200 L400 240"></path>
+
+            <path d="M450 300 L450 200 L500 200 L500 300 450 300"></path>
+        </g>
+
+        <g></g>
+        <a ></a>
+    </svg>
+</body>
+</html>
